@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action = "\server?">
+
+        <div>
+            <label for = "Firstname"></label>
+            <input type = "text" id = "Firstname" name = "Firstname" placeholder="Firstname">
+            <label for = "Lastname"></label>
+            <input type = "text" id = "lastname"  name = "Lastname" placeholder="Lastname">
+        </div>
+        
+        <div>
+            <label for = "Gender">Gender</label>
+            <select id = "Gender" name = "gender">
+            Please select gender
+            <option value = "male">Male</option>
+            <option value = "female">Female</option>
+        </select>
+        </div>
+
+        <div>
+            
+            <label for = "Ys">Do you agree to the terms and services?</label>
+            <input type = "checkbox" id = "ys" name = "agree" checked/>
+
+        </div>
+        
+        <button>Register</button>
+
+    </form>
+    <br>
+    <form>
+        <div>
+            <label for = "name">Name:</label>
+            <input type = "text" id = "name" name = "name">
+        </div>
+        <br>
+        <div>
+            Sex:
+            <label for = "male">male</label>
+            <input type = "radio" id = "male" name = "sex">
+
+            <label for = "female">female</label>
+            <input type = "radio" id = "female" name = "sex">
+        </div>
+
+        <br>
+        <div>
+
+            <label for = "select">Country:</label>
+            <select id = "select" name = "select">
+                <option>Select an option</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="message">Message:</label>
+            <textarea rows ="10" cols = "20"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for = "subscribe">Subscribe?</label>
+            <input type="checkbox" id = "subscribe" name = "sub">
+        </div>
+
+        <button>Submit</button>
+    </form>
+
+    <br>
+
+    <h1>Feedback Form</h1>
+    <form action = "/server?">
+        <div>
+            <label for = "name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for = "email">Email:</label>
+            <input for = "text" id="email" name="email">
+        </div>
+
+        <br>
+        
+        
+        Message:
+
+        <div>
+            <textarea rows = "10" cols = "20"></textarea>
+        </div>
+
+        <br>
+
+        Rate us out of 5:
+        <div>
+            <label for = "1">1</label>
+            <input type = "radio" id = "1" name = "rate">
+        </div>
+
+        <div>
+            <label for = "2">2</label>
+            <input type = "radio" id = "2" name = "rate">
+        </div>
+            <label for = "3">3</label>
+            <input type = "radio" id = "3" name = "rate">
+
+        <div>
+            <label for = "4">4</label>
+            <input type = "radio" id = "4" name = "rate">
+        </div>
+
+        <div>
+            <label for = "5">5</label>
+            <input type = "radio" id = "5" name = "rate">
+        </div>
+
+    <br>
+        
+    <div>
+        <button>Send your message!</button>
+    </div>
+        
+
+    </form>
+    
+</body>
+</html>

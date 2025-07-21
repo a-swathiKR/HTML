@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey System</title>
+</head>
+<body>
+    <h1>Customer Feedback Survey</h1>
+    <p>Please take a minute to complete the survey</p>
+
+    <form action="#" method="post">
+
+        <label for="name">Name: </label>
+        <input type="text" title="Enter your name" placeholder="Name" id="name">
+        <br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" id="age" title="Enter your age" placeholder="age" name="age">
+        <br><br>
+
+        <label for="color">Favourite Color: </label>
+        <select name="color" id="color">
+            <option value="Red" name="color">Red</option>
+            <option value="Red" name="color">Green</option>
+            <option value="Red" name="color">Orange</option>
+            <option value="Red" name="color">Blue</option>
+        </select>
+        <br><br>
+        <label for="feedback">Your feedback : </label><br><br>
+        <textarea  id="feedback" rows="4" cols="50"></textarea>
+        <br><br>
+        <input type="submit" value="SUBMIT">
+    </form>
+
+    <!-- Survey Instructions -->
+    <h3>Survey Instructions</h3>
+    
+    <ul>
+        <li>Fill in your name and age in the first two fields.</li>
+        <li>Select your favorite color from the dropdown list.</li>
+        <li>Provide your feedback in the text box below.</li>
+        <li>Click the "Submit" button to submit your responses.</li>
+    </ul>
+
+    <table style="border:2px solid black;border-collapse:collapse">
+        <p style="font-weight:600;font-size:25px;">Survey Responses</p>
+        
+        <tr>
+            <th style="border:2px solid black;border-collapse:collapse">Name</th>
+            <th style="border:2px solid black;border-collapse:collapse">Age</th>
+            <th style="border:2px solid black;border-collapse:collapse">Favorite color</th>
+            <th style="border:2px solid black;border-collapse:collapse">Feedback</th>
+        </tr>
+
+        <tr>
+            <td style="border:2px solid black;border-collapse:collapse">Alice</td>
+            <td style="border:2px solid black;border-collapse:collapse">30</td>
+            <td style="border:2px solid black;border-collapse:collapse">Blue</td>
+            <td style="border:2px solid black;border-collapse:collapse">Good Service! Keep it up</td>
+        </tr>
+
+         <tr>
+            <td style="border:2px solid black;border-collapse:collapse">Bob</td>
+            <td style="border:2px solid black;border-collapse:collapse">25</td>
+            <td style="border:2px solid black;border-collapse:collapse">Green</td>
+            <td style="border:2px solid black;border-collapse:collapse">Would Love to see more Options</td>
+        </tr>
+    </table>
+
+</body>
+</html>
